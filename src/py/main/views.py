@@ -9,3 +9,12 @@ def signup(response):
 
 def signin(response):
     return render(response, "main/signin.html", {})
+
+def account(response):
+    return render(response, "main/account.html", {})
+
+def passreset(response):
+    return render(response, "main/passwordreset.html", {})
+
+def dashboard(response):
+    return render(response, "main/dashboard.html")
